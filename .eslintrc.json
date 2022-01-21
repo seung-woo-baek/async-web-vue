@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2020": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/essential"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "vue/no-multiple-template-root": 0,
+        "vue/multi-word-component-names": ["error", {
+            "ignores": ["Home", "Notice", "Signup", "Login", "User", "Notice_write", "Notice_view"]
+        }]
+    }
+}
