@@ -44,7 +44,7 @@
 
 <script>
 import { onMounted } from 'vue';
-import User from '../assets/module.js';
+import User from '../assets/module/module.js';
 
 export default {
   name: 'HeaderBox',
